@@ -59,7 +59,7 @@ box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
     align-items: center;
     background: rgb(29, 29, 29);
     color: #fff;
-    flex: 1 1 30rem;
+    flex: 1 1 20rem;
 }
 .login h1{
     padding: 0;
@@ -71,7 +71,7 @@ box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
     border: none;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    width: 30%;
+    width: 50%;
     transition: all 0.2s ease-in-out;
 }
 .login [type='text']:hover{
@@ -93,7 +93,7 @@ box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
     margin: 1rem 0;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    width: 30%;
+    width: 50%;
     transition: all 0.2s ease-in-out;
 }
 .login [type='password']:hover{
@@ -128,7 +128,7 @@ box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
     align-items: center;
     background: rgb(37, 37, 37);
     color: #fff;
-    flex: 1 1 30rem;
+    flex: 1 1 20rem;
     padding: 0.5rem 0 0 0;
 }
 .register h1{
@@ -141,7 +141,7 @@ box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
     border: none;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    width: 30%;
+    width: 50%;
     transition: all 0.2s ease-in-out;
     margin-bottom: 0.5rem;
 }
@@ -188,7 +188,7 @@ box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
     border: none;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    width: 30%;
+    width: 50%;
     margin-bottom: 0.5rem;
     transition: all 0.2s ease-in-out;
 }
@@ -204,7 +204,7 @@ box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
     border: none;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    width: 30%;
+    width: 50%;
     transition: all 0.2s ease-in-out;
 }
 .register [type='tel']:hover{
@@ -219,10 +219,28 @@ box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
         width: 80%;
     }
     .login [type='text'] {
-        width: 80%;;
+        width: 80%;
     }
     .login [type='password'] {
         width: 80%;;
+    }
+    .register [type='text'] {
+        width: 80%;
+    }
+    .register [type='email'] {
+        width: 80%;
+    }
+    .register [type='tel'] {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login [type='text'] {
+        width: 80%;
+    }
+    .login [type='password'] {
+        width: 80%;
     }
     .register [type='text'] {
         width: 80%;
