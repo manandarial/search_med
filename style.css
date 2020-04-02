@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+   }
+
+.search-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 50vh;
+    margin: 0 auto;
+}
+.search-box [type='text'] {
+    padding: 1rem 1.4rem;
+    font-size: 1.2rem;
+    border: none;
+    background: #000;
+    color: #fff;
+    width: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.search-box [type='submit'] {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    margin: 1rem 1rem;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.search-box [type='text']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+.search-box [type='submit']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.login{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(29, 29, 29);
+    color: #fff;
+    flex: 1 1 30rem;
+}
+.login h1{
+    padding: 0;
+    margin: 0;
+}
+.login [type='text'] {
+    padding: 1rem 1.4rem;
+    font-size: 1.2rem;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 30%;
+    transition: all 0.2s ease-in-out;
+}
+.login [type='text']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+.login [type='text']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+.login [type='password'] {
+    padding: 1rem 1.4rem;
+    font-size: 1.2rem;
+    border: none;
+    margin: 1rem 0;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 30%;
+    transition: all 0.2s ease-in-out;
+}
+.login [type='password']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+
+.login [type='submit'] {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    margin: 1rem 1rem;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.login [type='submit']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+
+.register{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(37, 37, 37);
+    color: #fff;
+    flex: 1 1 30rem;
+    padding: 0.5rem 0 0 0;
+}
+.register h1{
+    padding: 0;
+    margin: 0;
+}
+.register [type='text'] {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 30%;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 0.5rem;
+}
+.register [type='text']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+.register [type='text']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+
+.register [type='password']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+
+.register [type='submit'] {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    margin: 1rem 1rem;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.register [type='submit']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+
+.register [type='email'] {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 30%;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+.register [type='email']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+.register [type='tel'] {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 30%;
+    transition: all 0.2s ease-in-out;
+}
+.register [type='tel']:hover{
+    background: orange;
+    -webkit-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36);
+box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.36)
+}
+
+@media screen and (max-width: 600px) {
+    .search-box [type='text'] {
+        width: 80%;
+    }
+    .login [type='text'] {
+        width: 80%;;
+    }
+    .login [type='password'] {
+        width: 80%;;
+    }
+    .register [type='text'] {
+        width: 80%;
+    }
+    .register [type='email'] {
+        width: 80%;
+    }
+    .register [type='tel'] {
+        width: 80%;
+    }
+}
